@@ -1,0 +1,81 @@
+* { 
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; 
+}
+.all_container{
+    width: 900px;
+    height: 800px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cover
+{
+    display:flex;
+    flex-direction: column;
+    width:50%;
+}
+.title{
+    font-size: 38px;
+    font-weight: bold;
+    display:flex;
+    margin-bottom: 30px;
+    color: rgb(82, 80, 80);  
+}
+.subtitle{
+    font-size: 20px;
+    display:flex;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color:lightslategrey;
+}
+.detail{
+    font-size:15px;
+    margin-top: 30px;
+    font-weight: bold;
+    color:rgb(97, 97, 248);
+    text-decoration: none;
+}
+.bank_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+}
+img{
+    width:30px;
+    height:30px;
+    margin:20px;
+}
+.bank{
+    width: 380px;
+    height: 70px;
+    border-radius: 10px;
+    margin:5px;
+    display:flex;
+
+
+    box-shadow: 0 30px 60px 12px rgba(0, 0, 50, 0.05),
+        0 4px 24px 0 rgba(0, 0, 33, 0.05),
+        0 0 1px 0 rgba(0, 0, 33, 0.09) ;
+}
+.bank_name{
+    font-size: 15px;
+    width:40%;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+
+}
+.money{
+    font-weight: bold;
+    color: rgb(56, 56, 65);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 25px; 
+    width:50%
+}
