@@ -31,7 +31,7 @@ for soup in soup_object :
             "hyperlink" : news_link
         }
 
-        # csv 파일 업로드
+        
         with open('./news.csv', 'a', encoding='utf-8') as csvfile :
             fieldnames = ['title', 'hyperlink']
             csvwriter = csv.DictWriter(csvfile, fieldnames=fieldnames)
